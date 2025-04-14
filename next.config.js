@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://hrms-liart-two.vercel.app/api/:path*', // Ensure the port matches your Express server
+        destination: 'https://hrms-rho-gilt.vercel.app/api/:path*', // Ensure the port matches your Express server
       },
     ];
   },
