@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://127.0.0.1:3001/api/:path*', // Ensure the port matches your Express server
+        destination: 'https://hrms-liart-two.vercel.app/api/:path*', // Ensure the port matches your Express server
       },
     ];
   },

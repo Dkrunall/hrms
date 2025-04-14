@@ -11,9 +11,9 @@ app.use(express.json());
 // Database connection pool configuration
 const pool = mysql.createPool({
   host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'hrms_db',
+  user: 'u918201379_hrmss',
+  password: 'Pgh@20255',
+  database: 'u918201379_hrmss',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
